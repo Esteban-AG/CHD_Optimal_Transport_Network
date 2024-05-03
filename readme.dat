@@ -1,0 +1,18 @@
+Data file format 
+
+
+cityData.dat (40 rows, 5 columns)
+
+1 - city index, zero based [integer] 
+2 - city name ["-delimited string]
+3 - normalized population [float]
+4 - city latitude [float]
+5 - city longitude [float]
+
+
+
+cityDistances.dat (780rows, 3 columns)
+
+1 - city index, zero based [integer] 
+2 - city index, zero based [integer] 
+3 - normalized distance between both cities [float]
